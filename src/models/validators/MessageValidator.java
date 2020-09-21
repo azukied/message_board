@@ -1,4 +1,4 @@
-package validators;
+package models.validators;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 import models.Message;
 
 public class MessageValidator {
+
     // バリデーションを実行する
     public static List<String> validate(Message m) {
         List<String> errors = new ArrayList<String>();
@@ -40,4 +41,5 @@ public class MessageValidator {
 
         return "";
     }
+
 }

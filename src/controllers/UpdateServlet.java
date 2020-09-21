@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import models.Message;
+import models.validators.MessageValidator;
 import utils.DBUtil;
 
-import validators.MessageValidator;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 
